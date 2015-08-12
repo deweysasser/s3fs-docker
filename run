@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Purpose:  Mount the s3 bucket and run reprepro
+
+# safety in bashing
+set -u
+set -e
+
+mkdir -p /mnt/s3
+
+s3fs $AWS_BUCKET /mnt/s3 -ouse_cache=/var/cache/s3
+
+eval "$@"
+
+umount /mnt/s3
