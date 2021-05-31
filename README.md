@@ -1,3 +1,8 @@
+ARCHIVED
+========
+
+This project is no longer maintained.  If someone would like to adopt it I'll be happy to transfer it.
+
 S3FS-docker
 ===========
 
