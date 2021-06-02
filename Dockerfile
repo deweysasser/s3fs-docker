@@ -1,4 +1,4 @@
-FROM ubuntu:trusty
+FROM ubuntu:trusty-20190515
 MAINTAINER Dewey Sasser <dewey@sasser.com>
 
 RUN apt-get update
